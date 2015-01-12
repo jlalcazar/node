@@ -1,7 +1,7 @@
 // Load the SDK and UUID
 var AWS = require('aws-sdk');
 
-AWS.config.update({accessKeyId: 'AKIAJAYMHJ4MKXZWLSHA', secretAccessKey: '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'});
+AWS.config.update({accessKeyId: '', secretAccessKey: ''});
 //AWS.config.update({region: 'us-west-1'});
 
 // Create an S3 client

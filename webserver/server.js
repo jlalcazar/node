@@ -10,12 +10,15 @@ server.on('request', function (request, response) {
 		'Content-Type': 'text/html'
 	});
 
+	//console.log(response);
 	if (request == "index") {
 		response.end("Running");
 	} else if (request == "indice") {
 		response.end("Funcioando");
+	} else {
+		response.end("Otro");
 	}
 
 
-}).listen(3000);
-console.log('escuchando en el puerto 30000');
+}).listen(80);
+console.log('escuchando en el puerto 80');

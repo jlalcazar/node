@@ -11,7 +11,7 @@ server.on('request', function (request, response) {
 		'Content-Type': 'text/html'
 	});
 
-	//console.log(response);
+	console.log(response);
 
 
 

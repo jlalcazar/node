@@ -3,6 +3,7 @@
 var http = require("http");
 
 var server = http.createServer();
+//require('./routes')(server);
 
 server.on('request', function (request, response) {
 
@@ -11,13 +12,7 @@ server.on('request', function (request, response) {
 	});
 
 	//console.log(response);
-	if (request == "index") {
-		response.end("Running");
-	} else if (request == "indice") {
-		response.end("Funcioando");
-	} else {
-		response.end("Otro");
-	}
+
 
 
 }).listen(80);

@@ -1,0 +1,9 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[branch "master"]
+[remote "master"]
+	url = git@github.com:jlalcazar/node.git
+	fetch = +refs/heads/*:refs/remotes/master/*

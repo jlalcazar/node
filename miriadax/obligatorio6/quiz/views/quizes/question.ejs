@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+<head>
+	<title>
+		Quiz
+	</title>
+	<link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+	<h2>Quiz el juego de preguntas</h2>
+	<form method="get" action="/quizes/answer">
+		Pregunta:
+		<%=p regunta %>
+			<p>
+				<input type="text" name="respuesta" value="responde aqui" />
+				<input type="submit" value="enviar">
+	</form>
+
+	<p id="footer"><a href="https://github.com/jlalcazar/node/tree/master/miriadax/obligatorio6">enlace github</a>
+	</p>
+
+</body>
+
+</html>

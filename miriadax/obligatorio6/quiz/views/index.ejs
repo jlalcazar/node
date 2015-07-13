@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
-
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
 <head>
 	<title>
-		<%= title %>
+		<%=title %>
 	</title>
 	<link rel='stylesheet' href='/stylesheets/style.css' />
 </head>
 
 <body>
-	<h1><%= title %></h1>
-	<p>Welcome to
-		<%= title %>
+	<h1>Bienvenido a <%= title %></h1>
+	<p>El portal de preguntas y respuestas de
+		<%=title %>
+	</p>
+	<p><a href='/quizes/question'>Comience a jugar</a>
 	</p>
 
-
-	<div id="footer"><a href="https://github.com/jlalcazar/node/tree/master/miriadax/obligatorio6">enlace github</a>
-	</div>
+	<p id="footer"><a href="https://github.com/jlalcazar/node/tree/master/miriadax/obligatorio6">enlace github</a>
+	</p>
 
 </body>
 
